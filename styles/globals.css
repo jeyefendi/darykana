@@ -20,10 +20,19 @@ a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 *:focus {
   outline: none;
+}
+
+nav {
+  background: var(--blue);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
 }
 
 main {
