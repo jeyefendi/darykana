@@ -23,5 +23,8 @@
 .input {
     display: flex;
     align-items: center;
-    gap: 0.5em;
+}
+
+.input input {
+  margin-left: 0.5em;
 }
